@@ -198,6 +198,18 @@ namespace CRUDMahasiswaADO
         {
             try
             {
+                // Validasi KodeProdi sebelum update
+                DataTable dtProdi = dbLogic.getProdi();
+                bool kodeValid = dtProdi.AsEnumerable()
+                    .Any(r => r["KodeProdi"].ToString().Trim()
+                        .Equals(txtKodeProdi.Text.Trim(), StringComparison.OrdinalIgnoreCase));
+
+                if (!kodeValid)
+                {
+                    MessageBox.Show("Kode Prodi tidak ditemukan. Periksa kembali inputan Kode Prodi.");
+                    return;
+                }
+
                 byte[] ConvertImageToBytes(PictureBox pb)
                 {
                     using (MemoryStream ms = new MemoryStream())
@@ -208,18 +220,16 @@ namespace CRUDMahasiswaADO
                 }
 
                 byte[] imgBytes = ConvertImageToBytes(fotoMhs);
-                dbLogic.UpdateMhs(txtNIM.Text, txtNama.Text, txtAlamat.Text, cmbJK.Text, dtpTanggalLahir.Value.Date, txtKodeProdi.Text, imgBytes);
+                dbLogic.UpdateMhs(txtNIM.Text, txtNama.Text, txtAlamat.Text, cmbJK.Text, dtpTanggalLahir.Value.Date, txtKodeProdi.Text.Trim(), imgBytes);
                 MessageBox.Show("Data mahasiswa berhasil diubah");
                 ClearForm();
                 btnLoad.PerformClick();
             }
-
             catch (SqlException ex)
             {
                 SimpanLog(ex.Message);
                 MessageBox.Show("SQL Error : " + ex.Message);
             }
-
             catch (Exception ex)
             {
                 SimpanLog(ex.Message);
