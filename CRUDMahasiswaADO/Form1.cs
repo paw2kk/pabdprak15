@@ -164,6 +164,17 @@ namespace CRUDMahasiswaADO
         {
             try
             {
+                DataTable dtProdi = dbLogic.getProdi();
+                bool kodeValid = dtProdi.AsEnumerable()
+                    .Any(r => r["KodeProdi"].ToString().Trim()
+                        .Equals(txtKodeProdi.Text.Trim(), StringComparison.OrdinalIgnoreCase));
+
+                if (!kodeValid)
+                {
+                    MessageBox.Show("Kode Prodi tidak ditemukan. Periksa kembali inputan Kode Prodi.");
+                    return;
+                }
+
                 byte[] ConvertImageToBytes(PictureBox pb)
                 {
                     using (MemoryStream ms = new MemoryStream())
@@ -174,18 +185,16 @@ namespace CRUDMahasiswaADO
                 }
 
                 byte[] imgBytes = ConvertImageToBytes(fotoMhs);
-                dbLogic.InsertMhs(txtNIM.Text, txtNama.Text, txtAlamat.Text, cmbJK.Text, dtpTanggalLahir.Value.Date, txtKodeProdi.Text, imgBytes);
+                dbLogic.InsertMhs(txtNIM.Text, txtNama.Text, txtAlamat.Text, cmbJK.Text, dtpTanggalLahir.Value.Date, txtKodeProdi.Text.Trim(), imgBytes);
                 MessageBox.Show("Data mahasiswa berhasil ditambahkan");
                 ClearForm();
                 LoadData();
             }
-
             catch (SqlException ex)
             {
                 SimpanLog("Rollback Insert : " + ex.Message);
                 MessageBox.Show("SQL Error : " + ex.Message);
             }
-
             catch (Exception ex)
             {
                 SimpanLog("General Error : " + ex.Message);
