@@ -42,12 +42,10 @@ C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasi
 C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CRUDMahasiswaADO.pdb
 C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\ExcelDataReader.DataSet.dll
 C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\ExcelDataReader.dll
-C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\System.ValueTuple.dll
 C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\ExcelDataReader.pdb
 C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\ExcelDataReader.xml
 C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\ExcelDataReader.DataSet.pdb
 C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\ExcelDataReader.DataSet.xml
-C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\System.ValueTuple.xml
 C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasiswaADO\obj\Release\CRUDMahasiswaADO.csproj.AssemblyReference.cache
 C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasiswaADO\obj\Release\CRUDMahasiswaADO.Dashboard.resources
 C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasiswaADO\obj\Release\CRUDMahasiswaADO.Form1.resources
