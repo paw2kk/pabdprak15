@@ -103,9 +103,10 @@ static string connectionString =
 
             try
             {
+
                 SqlCommand command = new SqlCommand("sp_InsertMahasiswa", conn);
                 command.CommandType = CommandType.StoredProcedure;
-
+                command.Transaction = trans;
                 command.Parameters.AddWithValue("@PNIM", nim);
                 command.Parameters.AddWithValue("@PNama", nama);
                 command.Parameters.AddWithValue("@PAlamat", alamat);
@@ -158,7 +159,7 @@ static string connectionString =
             }
 
             SqlCommand cmd = new SqlCommand("sp_DeleteMahasiswa", conn);
-            cmd.Parameters.AddWithValue("@PNIM", nim);
+            cmd.Parameters.AddWithValue("@NIM", nim);
             cmd.CommandType = CommandType.StoredProcedure;
 
             cmd.ExecuteNonQuery();
