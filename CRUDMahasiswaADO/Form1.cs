@@ -270,14 +270,20 @@ namespace CRUDMahasiswaADO
                 txtAlamat.Text = row[4].ToString();
                 txtKodeProdi.Text = row[6].ToString();
 
+                // Buang image lama dulu biar tidak leak memori
+                fotoMhs.Image?.Dispose();
+
                 if (row[5] != DBNull.Value)
                 {
                     byte[] imgBytes = (byte[])row[5];
                     using (MemoryStream ms = new MemoryStream(imgBytes))
                     {
-                        fotoMhs.Image = Image.FromStream(ms);
-                        fotoMhs.SizeMode = PictureBoxSizeMode.StretchImage;
+                        using (Image temp = Image.FromStream(ms))
+                        {
+                            fotoMhs.Image = new Bitmap(temp); // ✅ copy independen, tidak terikat ms
+                        }
                     }
+                    fotoMhs.SizeMode = PictureBoxSizeMode.StretchImage;
                 }
                 else
                 {
