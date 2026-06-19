@@ -234,7 +234,7 @@ static string connectionString =
                 conn.Open();
             }
 
-            SqlCommand cmd = new SqlCommand("select KodeProdi, NamaProdi from prodi", conn);
+            SqlCommand cmd = new SqlCommand("select KodeProdi, NamaProdi from ProgramStudi", conn);
             cmd.CommandType = CommandType.Text;
             dtProdi = new DataTable();
             da = new SqlDataAdapter(cmd);
