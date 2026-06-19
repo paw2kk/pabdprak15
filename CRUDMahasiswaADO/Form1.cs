@@ -99,6 +99,8 @@ namespace CRUDMahasiswaADO
         private void BindControls()
         {
             txtNIM.DataBindings.Clear();
+
+
             txtNama.DataBindings.Clear();
             cmbJK.DataBindings.Clear();
             dtpTanggalLahir.DataBindings.Clear();
@@ -304,7 +306,10 @@ namespace CRUDMahasiswaADO
             txtAlamat.Clear();
             txtKodeProdi.Clear();
             dtpTanggalLahir.Value = DateTime.Now;
+
+            fotoMhs.Image?.Dispose();   // ✅ buang image lama dari memori
             fotoMhs.Image = null;
+
             txtNIM.Focus();
         }
 
