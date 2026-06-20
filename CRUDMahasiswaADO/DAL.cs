@@ -113,7 +113,7 @@ static string connectionString =
                 command.Parameters.AddWithValue("@PTanggalLahir", tanggalLahir);
                 command.Parameters.AddWithValue("@PJenisKelamin", jenisKelamin);
                 command.Parameters.AddWithValue("@PKodeProdi", kodeProdi);
-                command.Parameters.AddWithValue("@Pfoto", foto);
+                command.Parameters.AddWithValue("@Foto", foto);
 
                 command.ExecuteNonQuery();
                 trans.Commit();
@@ -144,7 +144,7 @@ static string connectionString =
             command.Parameters.AddWithValue("@PJenisKelamin", jenisKelamin);
             command.Parameters.AddWithValue("@PTanggalLahir", tanggalLahir);
             command.Parameters.AddWithValue("@PKodeProdi", kodeProdi);
-            command.Parameters.AddWithValue("@Pfoto", foto);
+            command.Parameters.AddWithValue("@Foto", foto);
 
             command.CommandType = CommandType.StoredProcedure;
 
