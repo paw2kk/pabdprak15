@@ -37,21 +37,24 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.cmbProdi = new System.Windows.Forms.ComboBox();
+            this.tableAdapterManager1 = new CRUDMahasiswaADO.DBAkademikADODataSetTableAdapters.TableAdapterManager();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // dtpTanggalMasuk
             // 
-            this.dtpTanggalMasuk.Location = new System.Drawing.Point(376, 53);
+            this.dtpTanggalMasuk.Location = new System.Drawing.Point(282, 43);
+            this.dtpTanggalMasuk.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dtpTanggalMasuk.Name = "dtpTanggalMasuk";
-            this.dtpTanggalMasuk.Size = new System.Drawing.Size(200, 22);
+            this.dtpTanggalMasuk.Size = new System.Drawing.Size(151, 20);
             this.dtpTanggalMasuk.TabIndex = 1;
             // 
             // btnLoad
             // 
-            this.btnLoad.Location = new System.Drawing.Point(649, 52);
+            this.btnLoad.Location = new System.Drawing.Point(487, 42);
+            this.btnLoad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLoad.Name = "btnLoad";
-            this.btnLoad.Size = new System.Drawing.Size(75, 23);
+            this.btnLoad.Size = new System.Drawing.Size(56, 19);
             this.btnLoad.TabIndex = 2;
             this.btnLoad.Text = "Load";
             this.btnLoad.UseVisualStyleBackColor = true;
@@ -60,9 +63,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(318, 20);
+            this.label1.Location = new System.Drawing.Point(238, 16);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(177, 16);
+            this.label1.Size = new System.Drawing.Size(144, 13);
             this.label1.TabIndex = 3;
             this.label1.Text = "REKAP DATA MAHASISWA";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -71,27 +75,31 @@
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Location = new System.Drawing.Point(0, 0);
+            this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(68, 16);
+            this.linkLabel1.Size = new System.Drawing.Size(55, 13);
             this.linkLabel1.TabIndex = 4;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "linkLabel1";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 99);
+            this.dataGridView1.Location = new System.Drawing.Point(9, 80);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(766, 392);
+            this.dataGridView1.Size = new System.Drawing.Size(574, 318);
             this.dataGridView1.TabIndex = 5;
             // 
             // btnCetak
             // 
-            this.btnCetak.Location = new System.Drawing.Point(648, 498);
+            this.btnCetak.Location = new System.Drawing.Point(486, 405);
+            this.btnCetak.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCetak.Name = "btnCetak";
-            this.btnCetak.Size = new System.Drawing.Size(75, 23);
+            this.btnCetak.Size = new System.Drawing.Size(56, 19);
             this.btnCetak.TabIndex = 6;
             this.btnCetak.Text = "Cetak";
             this.btnCetak.UseVisualStyleBackColor = true;
@@ -100,34 +108,44 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(27, 58);
+            this.label2.Location = new System.Drawing.Point(20, 47);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(39, 16);
+            this.label2.Size = new System.Drawing.Size(31, 13);
             this.label2.TabIndex = 7;
             this.label2.Text = "Prodi";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(266, 55);
+            this.label3.Location = new System.Drawing.Point(200, 45);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(88, 16);
+            this.label3.Size = new System.Drawing.Size(73, 13);
             this.label3.TabIndex = 8;
             this.label3.Text = "Tahun Masuk";
             // 
             // cmbProdi
             // 
             this.cmbProdi.FormattingEnabled = true;
-            this.cmbProdi.Location = new System.Drawing.Point(82, 53);
+            this.cmbProdi.Location = new System.Drawing.Point(62, 43);
+            this.cmbProdi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbProdi.Name = "cmbProdi";
-            this.cmbProdi.Size = new System.Drawing.Size(121, 24);
+            this.cmbProdi.Size = new System.Drawing.Size(92, 21);
             this.cmbProdi.TabIndex = 9;
+            // 
+            // tableAdapterManager1
+            // 
+            this.tableAdapterManager1.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager1.Connection = null;
+            this.tableAdapterManager1.MahasiswaTableAdapter = null;
+            this.tableAdapterManager1.UpdateOrder = CRUDMahasiswaADO.DBAkademikADODataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 532);
+            this.ClientSize = new System.Drawing.Size(600, 432);
             this.Controls.Add(this.cmbProdi);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -137,6 +155,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnLoad);
             this.Controls.Add(this.dtpTanggalMasuk);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form2";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load_1);
@@ -156,5 +175,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox cmbProdi;
+        private DBAkademikADODataSetTableAdapters.TableAdapterManager tableAdapterManager1;
     }
 }

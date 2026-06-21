@@ -141,5 +141,10 @@ namespace CRUDMahasiswaADO
                 MessageBox.Show("Gagal load data: " + ex.Message);
             }
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
     }
 }
