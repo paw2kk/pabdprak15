@@ -1,46 +1,12 @@
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CRUDMahasiswaADO.exe.config
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CRUDMahasiswaADO.exe
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CRUDMahasiswaADO.pdb
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CrystalDecisions.ReportSource.dll
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CrystalDecisions.Shared.dll
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CrystalDecisions.Windows.Forms.dll
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\ExcelDataReader.DataSet.dll
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\ExcelDataReader.dll
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\System.ValueTuple.dll
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\stdole.dll
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\ExcelDataReader.pdb
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\ExcelDataReader.xml
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\ExcelDataReader.DataSet.pdb
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\ExcelDataReader.DataSet.xml
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\System.ValueTuple.xml
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\obj\Release\CRUDMahasiswaADO.csproj.AssemblyReference.cache
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\obj\Release\CRUDMahasiswaADO.Dashboard.resources
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\obj\Release\CRUDMahasiswaADO.Form1.resources
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\obj\Release\CRUDMahasiswaADO.Form2.resources
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\obj\Release\CRUDMahasiswaADO.Report.resources
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\obj\Release\CRUDMahasiswaADO.Properties.Resources.resources
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\obj\Release\CRUDMahasiswaADO.csproj.GenerateResource.cache
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\obj\Release\CRUDMahasiswaADO.csproj.CoreCompileInputs.cache
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\obj\Release\CRUDMaha.C4B8D4C7.Up2Date
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\obj\Release\CRUDMahasiswaADO.exe
-C:\Users\Lenovo\source\repos\CRUDMahasiswaADO\CRUDMahasiswaADO\obj\Release\CRUDMahasiswaADO.pdb
 C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CRUDMahasiswaADO.exe.config
 C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CRUDMahasiswaADO.exe
 C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CRUDMahasiswaADO.pdb
 C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
 C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CrystalDecisions.ReportSource.dll
 C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CrystalDecisions.Shared.dll
 C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CrystalDecisions.Windows.Forms.dll
@@ -52,6 +18,8 @@ C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasi
 C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
 C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
 C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\stdole.dll
 C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\ExcelDataReader.pdb
 C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\ExcelDataReader.xml
 C:\Users\hp victus\source\repos\CRUDMahasiswaADO (1)\CRUDMahasiswaADO\CRUDMahasiswaADO\bin\Release\ExcelDataReader.DataSet.pdb
